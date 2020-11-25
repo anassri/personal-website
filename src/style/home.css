@@ -23,7 +23,6 @@ h1{
 .left-home-container{
     display: flex;
     justify-content: center;
-    /* margin-left: 25px; */
 }
 .home-photo{
     text-align: center;
@@ -37,7 +36,6 @@ h1{
     color: #828282;
     font-size: 20px;
     font-weight: lighter;
-    /* letter-spacing: 1px; */
 
 }
 @media only screen and (min-width: 768px) {
