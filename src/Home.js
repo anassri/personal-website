@@ -6,15 +6,8 @@ export default function Home(){
     return (
         <div className="home-body-container">
             <div className="home-container">
-                <div className="dots-nav-container">
-                    <div className="dot-nav-button" />
-                    <div className="dot-nav-button" />
-                    <div className="dot-nav-button" />
-                    <div className="dot-nav-button" />
-                    <div className="dot-nav-button" />
-                </div>
                 <div className="left-home-container">
-                    <img src={placeholderPhoto} alt='website logo' width='400' />
+                    <img src={placeholderPhoto} alt='main personal photo' className="home-photo" />
                 </div>
                 <div className="right-home-container">
                     <div className="hello-container">
@@ -23,9 +16,6 @@ export default function Home(){
                     <div className="hello-line-container" />
                     <p className="intro-text">My name is Ammar Nassri, and I am a full-stack
 web developer, UI/UX designer, and animator.</p>
-                    <div className="home-text-container">
-
-                    </div>
                 </div>
             </div>
         </div>

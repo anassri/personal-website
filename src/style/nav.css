@@ -13,10 +13,12 @@ body {
     display: flex;
     width: 100vw;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
 }
 .nav-buttons-mobile-container{
     display: block;
+    margin-right: 70px;
+
 }
 .nav-buttons-container, .social-media-container{
     display: none;
