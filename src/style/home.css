@@ -1,0 +1,16 @@
+.body {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    position: relative;
+}
+.home-container{
+    /* position: relative; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hello-container{
+    color: #828282;
+    font-size: 70px;
+}

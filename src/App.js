@@ -1,9 +1,15 @@
 import React from 'react';
+import Home from './Home';
+import Navigation from './Navigation';
 
 function App() {
   return (
-    <h1>Hello world!</h1>
-  );
+    <div class="body">
+      <Navigation />
+      <Home />
+    </div>
+
+    );
 }
 
 export default App;

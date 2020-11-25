@@ -1,0 +1,120 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+.nav-body-container{
+    width: calc(100vw - 60px);
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    position: relative;
+}
+.left-side-container{
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.right-side-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 15px;
+}
+
+.copyright-statement{
+    font-size: 12px;
+    color: #BCBCBC;
+    letter-spacing: 2px;
+}
+
+.social-media{
+    color: #BCBCBC;
+    margin: 0 8px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+.social-media:hover{
+    color: #33DD87;   
+}
+.nav-buttons-mobile-container{
+    display: block;
+}
+.nav-buttons-container, .dots-nav-container, .social-media-container{
+    display: none;
+}
+.nav-menu-container{
+    margin: 0;
+    
+    color: #BCBCBC;
+    font-size: 30px;
+    cursor: pointer;
+}
+@media only screen and (min-width: 768px) {
+    .left-side-container{
+        align-items: center;
+    }
+    .social-media{
+        margin: 0 15px;
+    }
+    .nav-body-container{
+        position: fixed;
+        width: calc(100vw - 200px);
+        margin: 90px;
+        z-index: 10;
+    }
+    .nav-buttons-mobile-container, .social-media-mobile-container{
+        display: none;
+    }
+    .nav-buttons-container, .social-media-container{
+        display: flex;
+    
+    }
+    .nav-button{
+        margin: 0 20px;
+        color: #BCBCBC;
+        letter-spacing: 3px;
+        font-size: 16px;
+        cursor: pointer;
+        font-weight: normal;
+        transition: color 0.2s, font-size 0.2s ease;
+        
+    }
+    .nav-button:active, .nav-button:hover{
+        font-size: 18px;
+        font-weight: bold;
+        color: #33DD87;   
+    }
+    .dot-nav-button{
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background-color: #BCBCBC;
+        cursor: pointer;
+        transition: width 0.2s ease, height 0.2s ease, background-color 0.2s;
+    }
+    .dot-nav-button:hover{
+        width: 17px;
+        height: 17px;
+        background-color: #33DD87;
+    }
+    .dot-nav-button:active{
+        background-color: #33DD87;
+        width: 14px;
+        height: 14px;
+    }
+    .dots-nav-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 30%;
+    }
+    .left-side-container{
+        height: 80vh;
+    }
+
+}
