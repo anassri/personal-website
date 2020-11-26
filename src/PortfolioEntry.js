@@ -13,7 +13,7 @@ export default function PortfolioEntry({logo, screen, caption, github, appLink})
             <div className="portfolio-second-row">
 
             </div>
-            <div className="hello-line-container" />
+            <div className="hello-line-container content-divider" />
             <div className="portfolio-third-row">
                 <img src={logo} alt='app logo' className="app-logo"/>
                 <p className="intro-text">{caption}</p>
