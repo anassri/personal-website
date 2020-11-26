@@ -3,11 +3,13 @@ body {
     margin: 0;
 }
 .nav-body-container{
-    width: calc(100vw - 60px);
+    /* width: calc(100vw - 60px); */
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between; */
-    margin: 30px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    /* padding: 30px; */
+    margin: 30px 30px 30px 0;
 }
 .top-side-container{
     display: flex;
@@ -29,7 +31,13 @@ body {
     font-size: 30px;
     cursor: pointer;
 }
+.logo-container{
+    margin-left: 30px;
+}
 @media only screen and (min-width: 768px) {
+    .logo-container{
+        margin-left: 0;
+    }
     .top-side-container{
         align-items: center;
         width: calc(100vw - 200px);

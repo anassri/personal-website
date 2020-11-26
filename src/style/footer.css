@@ -4,8 +4,8 @@
     flex-direction: column;
     justify-content: flex-end;
     margin: 0 30px;
-    position: fixed;
-    bottom: 30px;
+    /* position: fixed; */
+    /* bottom: 30px; */
 
 }
 .bottom-side-container{
@@ -40,5 +40,7 @@
         bottom: 90px;
         margin: 0 90px;
         z-index: 10;
+        position: fixed;
+
     }
 }
