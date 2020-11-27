@@ -4,7 +4,7 @@
     align-items: center;
 }
 .portfolio-body-container{
-    width: 60%;
+    width: 75%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -54,32 +54,44 @@
 .portfolio-first-row{
     position: relative;
 }
-.app-photo{
-    width: 85vw;
-    position: absolute;
-    left: 15px;
-    top:15px;
-    z-index: -1;
-}
 .portfolio-third-row{
     display: flex;
     align-items: center;
 }
 .app-logo{
-    height: 77px;
-    max-width: 120px;
-    margin-right: 10px;
+    height: 100%;
+    max-height: 77px;
+    max-width: 200px;
 }
 .content-divider{
     /* margin: 10px 0; */
     margin-top: 20px;
+}
+.right-portfolio-container{
+    color: #828282;
+    margin-bottom: 100px;
+}
+.app-subtitle{
+    font-size: 20px;
+    font-weight: lighter;
+}
+.caption-text{
+    font-size: 16px;
+    font-weight: lighter;
+    margin: 10px 0;
+}
+.app-logo{
+    margin-top: 20px;
+}
+p {
+    margin: 0;
 }
 @media only screen and (min-width: 768px) {
     .app-photo{
         width: 373px;
     }
     .monitor-photo{
-        width: 400px;
+        width: 100%;
     }
     .portfolio-body-container{
         flex-direction: row;
@@ -88,12 +100,18 @@
         height: 100vh;
 
     }
-    .left-portfolio-container, .right-portfolio-container{
-        width: 50%;
-        margin-left: 30px;
+    .left-portfolio-container{
+        width: 75%;
+        max-width: 833px;
+        margin-left: 50px;
+    }
+    .right-portfolio-container{
+        width: 25%;
+        margin-left: 20px;
+        margin-bottom: 0;
     }
     .github-button, .app-button{
-        width: 175px;
+        min-width: 175px;
     }
     .github-button:hover, .app-button:hover{
         /* font-size: 18px; */

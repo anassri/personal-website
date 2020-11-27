@@ -4,8 +4,10 @@ import Home from './Home';
 import LeftNav from './LeftNav';
 import Navigation from './Navigation';
 import About from './About';
-import PortfolioTop from './PortfolioTop';
-import PortfolioBottom from './PortfolioBottom';
+import Deary from './Deary';
+import Aidies from './Aidies';
+import SprintTurf from './SprintTurf';
+import AllABot from './AllABot';
 
 function App() {
   
@@ -15,8 +17,10 @@ function App() {
       <LeftNav />
       <Home />
       <About />
-      <PortfolioTop />
-      <PortfolioBottom />
+      <Deary />
+      <AllABot />
+      <Aidies />
+      <SprintTurf />
       <Footer />
     </div>
 

@@ -10,7 +10,7 @@
 }
 .bottom-side-container{
     display: flex;
-    /* width: 100vw; */
+    margin-bottom: 25px;
     justify-content: space-between;
 }
 .copyright-statement{
@@ -28,7 +28,9 @@
 .social-media:hover{
     color: #33DD87;   
 }
-
+.social-media-mobile-container{
+    margin-bottom: 10px;
+}
 @media only screen and (min-width: 768px) {
     .social-media{
         margin: 0 15px;
@@ -42,5 +44,8 @@
         z-index: 10;
         position: fixed;
 
+    }
+    .social-media-mobile-container{
+        display: none;
     }
 }
