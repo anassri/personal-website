@@ -22,6 +22,7 @@ export default function About() {
                     Currently living in Atlanta, GA. I love turning problems 
 into impeccable user experience with valuable content.</p>
                 </div>
+                
                 <div className="right-about-container">
                     {skillArr.map((skill, i) =>
                         <div className="stat-bar-container" key={i}>
