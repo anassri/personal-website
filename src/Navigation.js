@@ -2,9 +2,8 @@ import React from 'react';
 import logo from './images/logo.svg';
 import './style/nav.css';
 import { NavHashLink } from 'react-router-hash-link';
-import $ from 'jquery';
 
-export default function Navigation(){
+export default function Navigation({ pageVisible }){
     return (
         <div className="nav-body-container">
             <div className="top-side-container">
@@ -21,7 +20,7 @@ export default function Navigation(){
                 <div className="nav-buttons-container">
                     <NavHashLink smooth to="/#about"
                         activeClassName="active" className="nav-button"><p>ABOUT</p> </NavHashLink>
-                    <NavHashLink smooth to="/#portfolio"
+                    <NavHashLink smooth to="/#deary"
                         activeClassName="active" className="nav-button"><p>PORTFOLIO</p></NavHashLink>
                     <NavHashLink smooth to="/#resume"
                         activeClassName="active" className="nav-button"><p>RESUME</p></NavHashLink>

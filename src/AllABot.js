@@ -2,14 +2,18 @@ import React from 'react';
 import './style/portfolio.css';
 import aabLogo from './images/aab-logo.svg';
 import aabScreen from './images/app-02.png';
+import VisibilitySensor from "react-visibility-sensor";
 
-export default function AllABot() {
+export default function AllABot({ setPageVisible }) {
     const captions = "All-A-Bot is a custom Discord bot generator. AAB is a group project built to help Discord members generate quick bots to serve their needs. Developed with React, Python, PostgresQL"
     const githubs = "https://github.com/anassri/All-A-Bot"
     const appLinks = "https://all-a-bot.herokuapp.com/";
 
     return (
-        <div className="portfolio-container">
+        <VisibilitySensor partialVisibility 
+            onChange={isVisible => isVisible ? setPageVisible("aab") : null}>
+
+        <div className="portfolio-container" id="aab">
             <div className="portfolio-body-container">
                 <div className="left-portfolio-container">
                     <div className="portfolio-first-row">
@@ -41,5 +45,6 @@ export default function AllABot() {
                 </div>
             </div>
         </div>
+        </VisibilitySensor>
     )
 }

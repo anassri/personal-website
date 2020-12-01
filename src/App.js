@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import Footer from './Footer';
 import Home from './Home';
 import LeftNav from './LeftNav';
@@ -9,27 +9,27 @@ import Aidies from './Aidies';
 import SprintTurf from './SprintTurf';
 import AllABot from './AllABot';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-
 const LandingPage = () => {
-  
-  return (
+  const [pageVisible, setPageVisible] = useState("home")
+  console.log(pageVisible);
+  return(
     <>
-      <Home />
-      <About />
-      <Deary />
-      <AllABot />
-      <Aidies />
-      <SprintTurf />
-      <Footer />
+      <Navigation pageVisible={pageVisible}/>
+      <LeftNav pageVisible={pageVisible}/>
+      <Home setPageVisible={setPageVisible}/>  
+      <About setPageVisible={setPageVisible}/>
+      <Deary setPageVisible={setPageVisible}/>
+      <AllABot setPageVisible={setPageVisible}/>
+      <Aidies setPageVisible={setPageVisible}/>
+      <SprintTurf setPageVisible={setPageVisible}/>
+      <Footer setPageVisible={setPageVisible}/>
     </>
-  )
+  );
 }
 function App() {
   return (
     <div className="body">
       <BrowserRouter>
-        <Navigation />
-        <LeftNav/>
         <Switch>
           <Route path="/" component={LandingPage} />
 

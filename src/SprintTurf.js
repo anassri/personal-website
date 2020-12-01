@@ -2,14 +2,18 @@ import React from 'react';
 import './style/portfolio.css';
 import stLogo from './images/st-logo.svg';
 import stScreen from './images/app-04.png';
+import VisibilitySensor from "react-visibility-sensor";
 
-export default function AllABot() {
+export default function SprintTurf({ setPageVisible }) {
     const captions = "Sprint Turf is a simple project management app. ST is a group project created to provide a simple solution to developers. Developed with Vanilla JS, Node.js, PostgresQL"
     const githubs = "https://github.com/anassri/sprint-turf-project";
     const appLinks = "http://sprint-turf.herokuapp.com/";
 
     return (
-        <div className="portfolio-container">
+        <VisibilitySensor partialVisibility 
+            onChange={isVisible => isVisible ? setPageVisible("st") : null}>
+
+            <div className="portfolio-container" id="st">
             <div className="portfolio-body-container">
                 <div className="left-portfolio-container">
                     <div className="portfolio-first-row">
@@ -41,5 +45,6 @@ export default function AllABot() {
                 </div>
             </div>
         </div>
+        </VisibilitySensor>
     )
 }

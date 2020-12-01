@@ -2,14 +2,18 @@ import React from 'react';
 import './style/portfolio.css';
 import dearyLogo from './images/deary-logo.svg';
 import dearyScreen from './images/app-01.png';
+import VisibilitySensor from "react-visibility-sensor";
 
-export default function PortfolioTop() {
+export default function Deary({ setPageVisible }) {
     const captions = "Deary is a social media app built to help people keep in touch with the ones they care about.Developed with React, Python, PostgresQL, AWS";
     const githubs = "https://github.com/anassri/deary"
     const appLinks = "https://deary-social.herokuapp.com/";
 
     return (
-        <div className="portfolio-container" id="portfolio" >
+        <VisibilitySensor partialVisibility offset={{top: "50%"}}
+            onChange={isVisible => isVisible ? setPageVisible("deary") : null}>
+
+        <div className="portfolio-container" id="deary" >
             <div className="portfolio-body-container">
                 <div className="left-portfolio-container">
                     <div className="portfolio-first-row">
@@ -41,5 +45,6 @@ export default function PortfolioTop() {
                 </div>
             </div>
         </div>
+        </VisibilitySensor>
     )
 }

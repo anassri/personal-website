@@ -79,7 +79,7 @@ h1{
         height: 17px;
         background-color: #33DD87;
     }
-    .dot-nav-button:active{
+    .dot-nav-button:active, .active-dot{
         background-color: #33DD87;
         width: 14px;
         height: 14px;
