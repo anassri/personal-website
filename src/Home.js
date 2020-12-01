@@ -4,7 +4,7 @@ import placeholderPhoto from './images/Directors_photo.jpg';
 export default function Home(){
 
     return (
-        <div className="home-body-container">
+        <div className="home-body-container" id="home">
             <div className="home-container">
                 <div className="left-home-container">
                     <img src={placeholderPhoto} alt='main personal photo' className="home-photo" />

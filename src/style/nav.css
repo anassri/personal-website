@@ -61,12 +61,13 @@ body {
         cursor: pointer;
         font-weight: normal;
         transition: color 0.2s, font-size 0.2s ease;
-        
+        text-decoration: none; 
     }
-    .nav-button:active, .nav-button:hover{
+    .nav-button:active, .nav-button:hover, .active{
         font-size: 18px;
         font-weight: bold;
         color: #33DD87;   
+        text-decoration: none;
     }
     
 

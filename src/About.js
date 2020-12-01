@@ -13,7 +13,7 @@ export default function About() {
     const skillArr = ["CSS", "HTML", "React", "JavaScript", "Node.js", "Python", "SQL", "UI/UX Design", "Animation"];
     const skillRange = ["85%", "85%", "75%", "80%", "60%", "70%", "60%", "90%", "90%"]
     return (
-        <div className="about-body-container">
+        <div className="about-body-container" id="about">
             <div className="about-container">
                 <div className="left-about-container">
                     <img src={placeholderPhoto} alt='about personal photo' className="about-photo"  />
@@ -22,7 +22,7 @@ export default function About() {
                     Currently living in Atlanta, GA. I love turning problems 
 into impeccable user experience with valuable content.</p>
                 </div>
-                
+
                 <div className="right-about-container">
                     {skillArr.map((skill, i) =>
                         <div className="stat-bar-container" key={i}>

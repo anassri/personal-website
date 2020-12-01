@@ -9,11 +9,11 @@ export default function PortfolioTop() {
     const appLinks = "https://deary-social.herokuapp.com/";
 
     return (
-        <div className="portfolio-container">
+        <div className="portfolio-container" id="portfolio" >
             <div className="portfolio-body-container">
                 <div className="left-portfolio-container">
                     <div className="portfolio-first-row">
-                        <img src={dearyScreen} alt='deary photo' className="monitor-photo" />
+                        <img src={dearyScreen} alt='deary' className="monitor-photo" />
                     </div>
                 </div>
                 <div className="right-portfolio-container">
