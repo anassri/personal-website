@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './images/logo.svg';
 import './style/nav.css';
-import { NavHashLink } from 'react-router-hash-link';
+import { HashLink, NavHashLink } from 'react-router-hash-link';
 
 export default function Navigation({ pageVisible }){
     return (
@@ -9,21 +9,20 @@ export default function Navigation({ pageVisible }){
             <div className="top-side-container">
                 <div className="logo-container">
                     
-                    <NavHashLink smooth to="/#home"
-                        activeClassName="active">
+                    <HashLink smooth to="/#home">
                             <img src={logo} alt='website logo' height='66' />
-                    </NavHashLink>
+                    </HashLink>
                 </div>
                 <div className="nav-buttons-mobile-container">
                     <i className="nav-menu-container fas fa-bars"></i>
                 </div>
                 <div className="nav-buttons-container">
-                    <NavHashLink smooth to="/#about"
-                        activeClassName="active" className="nav-button"><p>ABOUT</p> </NavHashLink>
-                    <NavHashLink smooth to="/#deary"
-                        activeClassName="active" className="nav-button"><p>PORTFOLIO</p></NavHashLink>
-                    <NavHashLink smooth to="/#resume"
-                        activeClassName="active" className="nav-button"><p>RESUME</p></NavHashLink>
+                    <HashLink smooth to="/#about"
+                         className="nav-button"><p>ABOUT</p> </HashLink>
+                    <HashLink smooth to="/#deary"
+                         className="nav-button"><p>PORTFOLIO</p></HashLink>
+                    <HashLink smooth to="/#resume"
+                         className="nav-button"><p>RESUME</p></HashLink>
                 </div>
             </div>
         </div>

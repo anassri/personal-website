@@ -2,7 +2,7 @@ import React from 'react';
 import './style/home.css'
 import placeholderPhoto from './images/Directors_photo.jpg';
 import VisibilitySensor from "react-visibility-sensor";
-
+import downArrow from './images/down-arrow.svg';
 export default function Home({setPageVisible}){
 
     return (
@@ -20,6 +20,9 @@ export default function Home({setPageVisible}){
                         <p className="intro-text">My name is Ammar Nassri, and I am a full-stack
     web developer, UI/UX designer, and animator.</p>
                     </div>
+                <div className="down-arrow">
+                    <img src={downArrow} alt='down arrow' height='40' />
+                </div>
                 </div>
             </div>
         </VisibilitySensor>

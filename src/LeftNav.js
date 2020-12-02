@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavHashLink } from 'react-router-hash-link';
+// import { HashLink, NavHashLink } from 'react-router-hash-link';
 
 export default function LeftNav({ pageVisible }){
     if(pageVisible){
@@ -13,24 +13,26 @@ export default function LeftNav({ pageVisible }){
     }
     return(
         <div className="dots-nav-container">
-            <NavHashLink smooth to="/#home">
+            
+            {/* <HashLink smooth to="/#home">
                 <div className="dot-nav-button active-dot" id="home-dot" />
-            </NavHashLink>
-            <NavHashLink smooth to="/#about">
+            </HashLink>
+            <HashLink smooth to="/#about">
             <div className="dot-nav-button" id="about-dot" />
-            </NavHashLink>
-            <NavHashLink smooth to="/#deary">
+            </HashLink>
+            <HashLink smooth to="/#deary">
             <div className="dot-nav-button" id="deary-dot" />
-            </NavHashLink>
-            <NavHashLink smooth to="/#aab">
+            </HashLink>
+            <HashLink smooth to="/#aab">
             <div className="dot-nav-button" id="aab-dot" />
-            </NavHashLink>
-            <NavHashLink smooth to="/#aidies">
+            </HashLink>
+            <HashLink smooth to="/#aidies">
             <div className="dot-nav-button" id="aidies-dot" />
-            </NavHashLink>
-            <NavHashLink smooth to="/#st">
+            </HashLink>
+            <HashLink smooth to="/#st">
             <div className="dot-nav-button" id="st-dot" />
-            </NavHashLink>
+            </HashLink> */}
+
         </div>
     )
 }

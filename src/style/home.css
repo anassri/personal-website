@@ -39,7 +39,15 @@ h1{
     margin: 10px 0;
 
 }
+.down-arrow{
+    display: none;
+}
 @media only screen and (min-width: 768px) {
+    .down-arrow{
+        display: block;
+        position: absolute;
+        bottom: 120px;
+    }
     .hello-container{
         font-size: 70px;
     }
@@ -85,12 +93,12 @@ h1{
         height: 14px;
     }
     .dots-nav-container{
-        position:fixed;
+        position: fixed;;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        height: 40%;
+        /* height: 40%; */
         left: 140px;
-        top: 30%;
+        top: 750px;
     }
 }

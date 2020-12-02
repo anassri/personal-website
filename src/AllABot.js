@@ -30,13 +30,13 @@ export default function AllABot({ setPageVisible }) {
                     </div>
                     <div className="portfolio-fourt-row">
                         <a className="github-button"
-                            href={githubs}>
+                                href={githubs} target="_blank">
                             <div className="github-button-container">
                                 View on GitHub
                     </div>
                         </a>
                         <a className="app-button"
-                            href={appLinks}>
+                                href={appLinks} target="_blank">
                             <div className="app-button-container">
                                 Go to App
                     </div>

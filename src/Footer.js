@@ -16,10 +16,10 @@ export default function Footer(){
                     <p className="copyright-statement">© 2020 Ammar Nassri</p>
                 </div>
                 <div className="social-media-container">
-                    <i className="social-media fab fa-twitter"></i>
-                    <i className="social-media fab fa-github"></i>
-                    <i className="social-media fab fa-linkedin-in"></i>
-                    <i className="social-media fas fa-envelope"></i>
+                    <a href="https://twitter.com/ammar_nassri" target="_blank"><i className="social-media fab fa-twitter"></i></a>
+                    <a href="https://github.com/anassri" target="_blank"><i className="social-media fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/anassri/" target="_blank"> <i className="social-media fab fa-linkedin-in"></i></a>
+                    <a href="mailto:ar.nassri@gmail.com" target="_blank"> <i className="social-media fas fa-envelope"></i></a>
                 </div>
             </div>
         </div>

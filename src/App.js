@@ -11,7 +11,7 @@ import AllABot from './AllABot';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 const LandingPage = () => {
   const [pageVisible, setPageVisible] = useState("home")
-  console.log(pageVisible);
+  // console.log(pageVisible);
   return(
     <>
       <Navigation pageVisible={pageVisible}/>
