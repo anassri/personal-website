@@ -17,7 +17,7 @@ export default function SprintTurf({ setPageVisible }) {
             <div className="portfolio-body-container">
                 <div className="left-portfolio-container">
                     <div className="portfolio-first-row">
-                        <img src={stScreen} alt='aidies photo' className="monitor-photo" />
+                        <img src={stScreen} alt='aidies' className="monitor-photo" />
                     </div>
                 </div>
                 <div className="right-portfolio-container">
