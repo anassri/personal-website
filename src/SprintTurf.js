@@ -10,8 +10,8 @@ export default function SprintTurf({ setPageVisible }) {
     const appLinks = "http://sprint-turf.herokuapp.com/";
 
     return (
-        <VisibilitySensor partialVisibility 
-            onChange={isVisible => isVisible ? setPageVisible("st") : null}>
+        // <VisibilitySensor partialVisibility 
+        //     onChange={isVisible => isVisible ? setPageVisible("st") : null}>
 
             <div className="portfolio-container" id="st">
             <div className="portfolio-body-container">
@@ -45,6 +45,6 @@ export default function SprintTurf({ setPageVisible }) {
                 </div>
             </div>
         </div>
-        </VisibilitySensor>
+        // </VisibilitySensor>
     )
 }

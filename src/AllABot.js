@@ -10,8 +10,8 @@ export default function AllABot({ setPageVisible }) {
     const appLinks = "https://all-a-bot.herokuapp.com/";
 
     return (
-        <VisibilitySensor partialVisibility 
-            onChange={isVisible => isVisible ? setPageVisible("aab") : null}>
+        // <VisibilitySensor partialVisibility 
+        //     onChange={isVisible => isVisible ? setPageVisible("aab") : null}>
 
         <div className="portfolio-container" id="aab">
             <div className="portfolio-body-container">
@@ -45,6 +45,6 @@ export default function AllABot({ setPageVisible }) {
                 </div>
             </div>
         </div>
-        </VisibilitySensor>
+        // </VisibilitySensor>
     )
 }

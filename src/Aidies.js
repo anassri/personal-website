@@ -10,8 +10,8 @@ export default function Aidies({ setPageVisible }) {
     const appLinks = "https://aidies.herokuapp.com/";
 
     return (
-        <VisibilitySensor partialVisibility 
-            onChange={isVisible => isVisible ? setPageVisible("aidies") : null}>
+        // <VisibilitySensor partialVisibility 
+        //     onChange={isVisible => isVisible ? setPageVisible("aidies") : null}>
 
         <div className="portfolio-container"id="aidies">
             <div className="portfolio-body-container">
@@ -45,6 +45,6 @@ export default function Aidies({ setPageVisible }) {
                 </div>
             </div>
         </div>
-        </VisibilitySensor>
+        // </VisibilitySensor>
     )
 }

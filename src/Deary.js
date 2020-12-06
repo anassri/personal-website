@@ -10,8 +10,8 @@ export default function Deary({ setPageVisible }) {
     const appLinks = "https://deary-social.herokuapp.com/";
 
     return (
-        <VisibilitySensor partialVisibility 
-            onChange={isVisible => isVisible ? setPageVisible("deary") : null}>
+        // <VisibilitySensor partialVisibility 
+        //     onChange={isVisible => isVisible ? setPageVisible("deary") : null}>
 
         <div className="portfolio-container" id="deary" >
             <div className="portfolio-body-container">
@@ -45,6 +45,6 @@ export default function Deary({ setPageVisible }) {
                 </div>
             </div>
         </div>
-        </VisibilitySensor>
+        // {/* </VisibilitySensor> */}
     )
 }

@@ -6,7 +6,7 @@ import downArrow from './images/down-arrow.svg';
 export default function Home({setPageVisible}){
 
     return (
-        <VisibilitySensor partialVisibility onChange={isVisible => isVisible ? setPageVisible("home") : null}>
+        // <VisibilitySensor partialVisibility onChange={isVisible => isVisible ? setPageVisible("home") : null}>
             <div className="home-body-container" id="home">
                 <div className="home-container">
                     <div className="left-home-container">
@@ -25,6 +25,6 @@ export default function Home({setPageVisible}){
                 </div>
                 </div>
             </div>
-        </VisibilitySensor>
+        // </VisibilitySensor>
     );
 }

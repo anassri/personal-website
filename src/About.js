@@ -14,8 +14,8 @@ export default function About({ setPageVisible }) {
     const skillArr = ["CSS", "HTML", "React", "JavaScript", "Node.js", "Python", "SQL", "UI/UX Design", "Animation"];
     const skillRange = ["85%", "85%", "75%", "80%", "60%", "70%", "60%", "90%", "90%"]
     return (
-        <VisibilitySensor partialVisibility offset={{ top: 500 }}
-            onChange={isVisible => isVisible ? setPageVisible("about") : null}>
+        // <VisibilitySensor partialVisibility offset={{ top: 500 }}
+            // onChange={isVisible => isVissible ? setPageVisible("about") : null}>
             <div className="about-body-container" id="about">
                 <div className="about-container">
                     <div className="left-about-container">
@@ -40,6 +40,6 @@ export default function About({ setPageVisible }) {
                     </div>
                 </div>
             </div>
-        </VisibilitySensor>
+        // </VisibilitySensor>
     );
 }
