@@ -2,7 +2,7 @@ import React from 'react';
 import './style/about.css'
 import './style/home.css'
 import aboutPhoto from './images/about-photo.jpg';
-import VisibilitySensor from "react-visibility-sensor";
+// import VisibilitySensor from "react-visibility-sensor";
 
 const StatBar = ({width})=>{
     return  <svg className="svg-container">

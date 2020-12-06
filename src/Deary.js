@@ -2,7 +2,7 @@ import React from 'react';
 import './style/portfolio.css';
 import dearyLogo from './images/deary-logo.svg';
 import dearyScreen from './images/app-01.png';
-import VisibilitySensor from "react-visibility-sensor";
+// import VisibilitySensor from "react-visibility-sensor";
 
 export default function Deary({ setPageVisible }) {
     const captions = "Deary is a social media app built to help people keep in touch with the ones they care about.Developed with React, Python, PostgresQL, AWS";
@@ -30,13 +30,13 @@ export default function Deary({ setPageVisible }) {
                     </div>
                     <div className="portfolio-fourt-row">
                         <a className="github-button"
-                                href={githubs} target="_blank">
+                            href={githubs} target="_blank" rel="noreferrer">
                             <div className="github-button-container">
                                 View on GitHub
                     </div>
                         </a>
                         <a className="app-button"
-                                href={appLinks} target="_blank">
+                            href={appLinks} target="_blank" rel="noreferrer">
                             <div className="app-button-container">
                                 Go to App
                     </div>

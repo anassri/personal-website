@@ -2,7 +2,7 @@ import React from 'react';
 import './style/portfolio.css';
 import stLogo from './images/st-logo.svg';
 import stScreen from './images/app-04.png';
-import VisibilitySensor from "react-visibility-sensor";
+// import VisibilitySensor from "react-visibility-sensor";
 
 export default function SprintTurf({ setPageVisible }) {
     const captions = "Sprint Turf is a simple project management app. ST is a group project created to provide a simple solution to developers. Developed with Vanilla JS, Node.js, PostgresQL"
@@ -30,13 +30,13 @@ export default function SprintTurf({ setPageVisible }) {
                     </div>
                     <div className="portfolio-fourt-row">
                         <a className="github-button"
-                                href={githubs} target="_blank">
+                            href={githubs} target="_blank" rel="noreferrer">
                             <div className="github-button-container">
                                 View on GitHub
                     </div>
                         </a>
                         <a className="app-button"
-                                href={appLinks} target="_blank">
+                            href={appLinks} target="_blank" rel="noreferrer">
                             <div className="app-button-container">
                                 Go to App
                     </div>

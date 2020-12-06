@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './images/logo.svg';
 import './style/nav.css';
-import { HashLink, NavHashLink } from 'react-router-hash-link';
+import { HashLink } from 'react-router-hash-link';
 
 export default function Navigation({ pageVisible }){
     return (

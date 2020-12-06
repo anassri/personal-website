@@ -2,7 +2,7 @@ import React from 'react';
 import './style/portfolio.css';
 import aabLogo from './images/aab-logo.svg';
 import aabScreen from './images/app-02.png';
-import VisibilitySensor from "react-visibility-sensor";
+// import VisibilitySensor from "react-visibility-sensor";
 
 export default function AllABot({ setPageVisible }) {
     const captions = "All-A-Bot is a custom Discord bot generator. AAB is a group project built to help Discord members generate quick bots to serve their needs. Developed with React, Python, PostgresQL"
@@ -17,7 +17,7 @@ export default function AllABot({ setPageVisible }) {
             <div className="portfolio-body-container">
                 <div className="left-portfolio-container">
                     <div className="portfolio-first-row">
-                        <img src={aabScreen} alt='all-a-bot photo' className="monitor-photo" />
+                        <img src={aabScreen} alt='all-a-bot' className="monitor-photo" />
                     </div>
                 </div>
                 <div className="right-portfolio-container">
@@ -30,13 +30,13 @@ export default function AllABot({ setPageVisible }) {
                     </div>
                     <div className="portfolio-fourt-row">
                         <a className="github-button"
-                                href={githubs} target="_blank">
+                            href={githubs} target="_blank" rel="noreferrer">
                             <div className="github-button-container">
                                 View on GitHub
                     </div>
                         </a>
                         <a className="app-button"
-                                href={appLinks} target="_blank">
+                            href={appLinks} target="_blank" rel="noreferrer">
                             <div className="app-button-container">
                                 Go to App
                     </div>

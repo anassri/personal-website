@@ -2,7 +2,7 @@ import React from 'react';
 import './style/portfolio.css';
 import aidiesLogo from './images/aidies-logo.svg';
 import aidiesScreen from './images/app-03.png';
-import VisibilitySensor from "react-visibility-sensor";
+// import VisibilitySensor from "react-visibility-sensor";
 
 export default function Aidies({ setPageVisible }) {
     const captions = "Aidies is an auction website built to help people auction off their work for charity. Developed with React, Node.js, PostgresQL, AWS"
@@ -17,7 +17,7 @@ export default function Aidies({ setPageVisible }) {
             <div className="portfolio-body-container">
                 <div className="left-portfolio-container">
                     <div className="portfolio-first-row">
-                        <img src={aidiesScreen} alt='aidies photo' className="monitor-photo" />
+                        <img src={aidiesScreen} alt='aidies' className="monitor-photo" />
                     </div>
                 </div>
                 <div className="right-portfolio-container">
@@ -30,13 +30,13 @@ export default function Aidies({ setPageVisible }) {
                     </div>
                     <div className="portfolio-fourt-row">
                         <a className="github-button"
-                                href={githubs} target="_blank">
+                            href={githubs} target="_blank" rel="noreferrer">
                             <div className="github-button-container">
                                 View on GitHub
                     </div>
                         </a>
                         <a className="app-button"
-                                href={appLinks} target="_blank">
+                            href={appLinks} target="_blank" rel="noreferrer">
                             <div className="app-button-container">
                                 Go to App
                     </div>

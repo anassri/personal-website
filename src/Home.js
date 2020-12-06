@@ -1,7 +1,7 @@
 import React from 'react';
 import './style/home.css'
 import homePhoto from './images/profile_side_dsk.png';
-import VisibilitySensor from "react-visibility-sensor";
+// import VisibilitySensor from "react-visibility-sensor";
 import downArrow from './images/down-arrow.svg';
 export default function Home({setPageVisible}){
 
