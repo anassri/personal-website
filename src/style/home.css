@@ -47,6 +47,7 @@ h1{
         display: block;
         position: absolute;
         bottom: 120px;
+        right: 500px;
     }
     .hello-container{
         font-size: 70px;
