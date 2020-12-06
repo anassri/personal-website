@@ -1,6 +1,6 @@
 import React from 'react';
 import './style/home.css'
-import placeholderPhoto from './images/Directors_photo.jpg';
+import homePhoto from './images/profile_side_dsk.png';
 import VisibilitySensor from "react-visibility-sensor";
 import downArrow from './images/down-arrow.svg';
 export default function Home({setPageVisible}){
@@ -10,7 +10,7 @@ export default function Home({setPageVisible}){
             <div className="home-body-container" id="home">
                 <div className="home-container">
                     <div className="left-home-container">
-                        <img src={placeholderPhoto} alt='main personal photo' className="home-photo" />
+                        <img src={homePhoto} alt='main personal' className="home-photo" />
                     </div>
                     <div className="right-home-container">
                         <div className="hello-container">

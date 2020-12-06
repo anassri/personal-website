@@ -1,7 +1,7 @@
 import React from 'react';
 import './style/about.css'
 import './style/home.css'
-import placeholderPhoto from './images/Directors_photo.jpg';
+import aboutPhoto from './images/about-photo.jpg';
 import VisibilitySensor from "react-visibility-sensor";
 
 const StatBar = ({width})=>{
@@ -19,7 +19,7 @@ export default function About({ setPageVisible }) {
             <div className="about-body-container" id="about">
                 <div className="about-container">
                     <div className="left-about-container">
-                        <img src={placeholderPhoto} alt='about personal photo' className="about-photo"  />
+                        <img src={aboutPhoto} alt='about personal' className="about-photo"  />
                         <div className="hello-line-container" />
                         <p className="intro-text">I’m a full-stack developer with a soft spot for UI design. 
                         Currently living in Atlanta, GA. I love turning problems 

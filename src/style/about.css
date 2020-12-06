@@ -32,6 +32,7 @@ h1{
 .stat-bar-container{
     display: flex;
     align-items: center;
+    margin-top: 10px;
     /* justify-content: space-between; */
 }
 .stat-bar{
@@ -51,7 +52,7 @@ h1{
 @media only screen and (min-width: 768px) {
     
     .about-photo{
-        width: 400px;
+        width: 500px;
     }
     .svg-container{
         width: 400px;
