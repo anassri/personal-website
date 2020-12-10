@@ -13,12 +13,11 @@ export default function Navigation({ pageVisible }){
                             <img src={logo} alt='website logo' height='66' />
                     </HashLink>
                 </div>
-                <div className="nav-buttons-mobile-container">
-                    <i className="nav-menu-container fas fa-bars"></i>
-                </div>
                 <div className="nav-buttons-container">
                     <HashLink smooth to="/#about"
                          className="nav-button"><p>ABOUT</p> </HashLink>
+                    <HashLink smooth to="/#skills"
+                         className="nav-button"><p>SKILLS</p> </HashLink>
                     <HashLink smooth to="/#deary"
                          className="nav-button"><p>PORTFOLIO</p></HashLink>
                     <HashLink smooth to="/#resume"

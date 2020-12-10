@@ -34,7 +34,7 @@ h1{
 }
 .intro-text{
     color: #828282;
-    font-size: 20px;
+    font-size: 26px;
     font-weight: lighter;
     margin: 10px 0;
 
@@ -53,7 +53,7 @@ h1{
         font-size: 70px;
     }
     .right-home-container{
-        width: 50%;
+        width: 100%;
     }
     .left-home-container{
         text-align: right;
@@ -72,7 +72,7 @@ h1{
     }
     .home-container{
         height: 100vh;
-        width: 60vw;
+        width: 75vw;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
