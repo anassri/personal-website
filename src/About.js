@@ -10,6 +10,8 @@ import premiere from './images/premiere-icon.svg';
 import substance from './images/substance-icon.svg';
 import toonboom from './images/toonboom-icon.svg';
 import zbrush from './images/zbrush-icon.svg';
+import flask from './images/flask-logo.svg';
+import postgres from './images/postgres-logo.svg';
 // import VisibilitySensor from "react-visibility-sensor";
 
 // const StatBar = ({width})=>{
@@ -26,11 +28,12 @@ export default function About({ setPageVisible }) {
             // onChange={isVisible => isVissible ? setPageVisible("about") : null}>
             <div className="about-body-container" id="skills">
                 <div className="about-container">
-                    <div className="section-title-container">
+                <div className="section-title-container skills-section">
                         <h1>Skills</h1>
                     </div>
                     <div className="skills-container">
                         <div className="code-container">
+                            <i className="fas fa-code section-icon" ></i>
                             <h1 className="section-header">Code</h1>
                             <div className="hello-line-container about-line" />
 
@@ -51,12 +54,20 @@ export default function About({ setPageVisible }) {
                                 <p className="skill-text">Python</p>
                             </div>
                             <div className="skill-item">
+                                <img className="design-icon" src={flask} alt="flask" width="21.88" />
+                                <p className="skill-text">Flask</p>
+                            </div>
+                            <div className="skill-item">
                                 <i className="fab fa-html5"></i>
                                 <p className="skill-text">HTML</p>
                             </div>
                             <div className="skill-item">
                                 <i className="fab fa-css3-alt"></i>
                                 <p className="skill-text">CSS</p>
+                            </div>
+                            <div className="skill-item">
+                                <img className="design-icon" src={postgres} alt="postgres" width="21.88" />
+                                <p className="skill-text">PostgreSQL</p>
                             </div>
                             <div className="skill-item">
                                 <i className="fas fa-database"></i>
@@ -77,6 +88,8 @@ export default function About({ setPageVisible }) {
                             
                         </div>
                         <div className="design-container">
+                            <i className="fas fa-paint-brush section-icon"></i>
+
                             <h1 className="section-header">Design</h1>
                             <div className="hello-line-container about-line" />
 
@@ -101,6 +114,10 @@ export default function About({ setPageVisible }) {
                                 <p className="skill-text">Substance Painter</p>
                             </div>
                             <div className="skill-item">
+                                <i className="fab fa-unity"></i>
+                                <p className="skill-text">Unity</p>
+                            </div>
+                            <div className="skill-item">
                             <img className="design-icon" src={toonboom} alt="toonboom" width="21.88" />
                                 <p className="skill-text">ToonBoom</p>
                             </div>
@@ -118,7 +135,8 @@ export default function About({ setPageVisible }) {
                             </div>
                         </div>
                         <div className="life-container">
-                            
+                        <i className="fas fa-heartbeat section-icon"></i>
+
                             <h1 className="section-header">Life</h1>
                             <div className="hello-line-container about-line" />
 

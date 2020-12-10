@@ -21,6 +21,9 @@ export default function Deary({ setPageVisible }) {
                     </div>
                 </div>
                 <div className="right-portfolio-container">
+                    <div className="section-title-container">
+                        <h1>Portfolio</h1>
+                    </div>
                     <h1 className="app-title">Deary</h1>
                     <p className="app-subtitle">Stay in touch with the people you care about.</p>
                     <img src={dearyLogo} alt='app logo' className="app-logo" />
