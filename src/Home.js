@@ -3,7 +3,7 @@ import './style/home.css'
 import './style/scroll.css'
 import homePhoto from './images/profile_side_dsk.png';
 // import VisibilitySensor from "react-visibility-sensor";
-import downArrow from './images/down-arrow.svg';
+// import downArrow from './images/down-arrow.svg';
 export default function Home({setPageVisible}){
 
     return (
@@ -24,7 +24,7 @@ export default function Home({setPageVisible}){
                     </div>
                 <div className="down-arrow">
                     <div className="arrow bounce">
-                        <a className="fa fa-arrow-down fa-2x" href="#"></a>
+                        <i className="fa fa-arrow-down fa-2x"></i>
                     </div>
                 </div>
                 </div>

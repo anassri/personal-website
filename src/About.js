@@ -12,15 +12,15 @@ import toonboom from './images/toonboom-icon.svg';
 import zbrush from './images/zbrush-icon.svg';
 // import VisibilitySensor from "react-visibility-sensor";
 
-const StatBar = ({width})=>{
-    return  <svg className="svg-container">
-                <rect width="100%" height="5" style={{ fill: "#BCBCBC", opacity: 0.4}} />
-                <rect width={width} height="5" style={{ fill: "#33DD87"}} />
-            </svg>
-}
+// const StatBar = ({width})=>{
+//     return  <svg className="svg-container">
+//                 <rect width="100%" height="5" style={{ fill: "#BCBCBC", opacity: 0.4}} />
+//                 <rect width={width} height="5" style={{ fill: "#33DD87"}} />
+//             </svg>
+// }
 export default function About({ setPageVisible }) {
-    const skillArr = ["CSS", "HTML", "React", "JavaScript", "Node.js", "Python", "SQL", "UI/UX Design", "Animation"];
-    const skillRange = ["85%", "85%", "75%", "80%", "60%", "70%", "60%", "90%", "90%"]
+    // const skillArr = ["CSS", "HTML", "React", "JavaScript", "Node.js", "Python", "SQL", "UI/UX Design", "Animation"];
+    // const skillRange = ["85%", "85%", "75%", "80%", "60%", "70%", "60%", "90%", "90%"]
     return (
         // <VisibilitySensor partialVisibility offset={{ top: 500 }}
             // onChange={isVisible => isVissible ? setPageVisible("about") : null}>

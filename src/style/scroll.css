@@ -2,7 +2,7 @@
 @primary: #fd6b21; 
 
 body { background: @bg; }
-a { color: white; text-decoration: none; }
+i { color: white; text-decoration: none; }
 
 .arrow {
   text-align: center;
