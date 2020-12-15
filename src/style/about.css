@@ -3,7 +3,6 @@ h1{
 }
 .about-body-container{
     display: flex;
-    /* flex-direction: column; */
     margin-bottom: 100px;
 }
 .about-container{
@@ -33,7 +32,6 @@ h1{
     display: flex;
     align-items: center;
     margin-top: 10px;
-    /* justify-content: space-between; */
 }
 .stat-bar{
     justify-self: flex-start;
