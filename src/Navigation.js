@@ -3,6 +3,7 @@ import logo from './images/logo.svg';
 import './style/nav.css';
 import { HashLink } from 'react-router-hash-link';
 import resume from './Ammar_Nassri_Resume.pdf';
+
 export default function Navigation({ pageVisible }){
     return (
         <div className="nav-body-container">
