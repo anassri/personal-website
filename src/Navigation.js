@@ -2,7 +2,7 @@ import React from 'react';
 import logo from './images/logo.svg';
 import './style/nav.css';
 import { HashLink } from 'react-router-hash-link';
-
+import resume from './Ammar_Nassri_Resume.pdf';
 export default function Navigation({ pageVisible }){
     return (
         <div className="nav-body-container">
@@ -20,8 +20,8 @@ export default function Navigation({ pageVisible }){
                          className="nav-button"><p>SKILLS</p> </HashLink>
                     <HashLink smooth to="/#deary"
                          className="nav-button"><p>PORTFOLIO</p></HashLink>
-                    <HashLink smooth to="/#resume"
-                         className="nav-button"><p>RESUME</p></HashLink>
+                    <a href={resume} target="_blank" rel="noreferrer"
+                         className="nav-button"><p>RESUME</p></a>
                 </div>
             </div>
         </div>
