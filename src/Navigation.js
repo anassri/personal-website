@@ -24,6 +24,10 @@ export default function Navigation({ pageVisible }){
                     <a href={resume} target="_blank" rel="noreferrer"
                          className="nav-button"><p>RESUME</p></a>
                 </div>
+                <div className="resume-mobile-container">
+                    <a href={resume} target="_blank" rel="noreferrer"
+                        className="nav-button"><p>RESUME</p></a>
+                </div>
             </div>
         </div>
     )
