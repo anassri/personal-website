@@ -4,7 +4,8 @@ import dearyLogo from './images/deary-logo.svg';
 import dearyScreen from './images/app-01.png';
 
 export default function Deary({ setPageVisible }) {
-    const captions = "Deary is a social media app built to help people keep in touch with the ones they care about.Developed with React, Python, PostgresQL, AWS";
+    const captions = `Deary is a social media app built to help people keep in touch with the ones they care about. Developed with React, Python, PostgresQL, AWS`;
+    const responsibility = "Responsibility: this was a solo project, all aspects of this app has been developed by me."
     const githubs = "https://github.com/anassri/deary"
     const appLinks = "https://deary-social.herokuapp.com/";
 
@@ -25,7 +26,7 @@ export default function Deary({ setPageVisible }) {
                     <img src={dearyLogo} alt='app logo' className="app-logo" />
                     <div className="hello-line-container content-divider" />
                     <div className="portfolio-third-row">
-                        <p className="caption-text">{captions}</p>
+                        <p className="caption-text">{captions} {responsibility}</p>
                     </div>
                     <div className="portfolio-fourt-row">
                         <a className="github-button"
