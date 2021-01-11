@@ -8,6 +8,7 @@ export default function SprintTurf({ setPageVisible }) {
     const captions = "Sprint Turf is a simple project management app. ST is a group project created to provide a simple solution to developers. Developed with Vanilla JS, Node.js, PostgresQL"
     const githubs = "https://github.com/anassri/sprint-turf-project";
     const appLinks = "http://sprint-turf.herokuapp.com/";
+    const responsibility = "I was responsible for Sign up page, notes section, UI/UX development and styling"
 
     return (
         // <VisibilitySensor partialVisibility 
@@ -26,7 +27,7 @@ export default function SprintTurf({ setPageVisible }) {
                     <img src={stLogo} alt='app logo' className="app-logo" />
                     <div className="hello-line-container content-divider" />
                     <div className="portfolio-third-row">
-                        <p className="caption-text">{captions}</p>
+                        <p className="caption-text">{captions} <span style={{ fontWeight: 'bold' }}> Responsibility: </span>{responsibility}</p>
                     </div>
                     <div className="portfolio-fourt-row">
                         <a className="github-button"
