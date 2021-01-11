@@ -8,6 +8,7 @@ export default function AllABot({ setPageVisible }) {
     const captions = "All-A-Bot is a custom Discord bot generator. AAB is a group project built to help Discord members generate quick bots to serve their needs. Developed with React, Python, PostgresQL"
     const githubs = "https://github.com/anassri/All-A-Bot"
     const appLinks = "https://all-a-bot.herokuapp.com/";
+    const responsibility = "I was responsible for Explore Bots page, View Bot, contributed to the system that generates the code for the bot, and the UI/UX development and styling"
 
     return (
         // <VisibilitySensor partialVisibility 
@@ -26,7 +27,7 @@ export default function AllABot({ setPageVisible }) {
                     <img src={aabLogo} alt='app logo' className="app-logo" />
                     <div className="hello-line-container content-divider" />
                     <div className="portfolio-third-row">
-                        <p className="caption-text">{captions}</p>
+                        <p className="caption-text">{captions} <span style={{ fontWeight: 'bold' }}> Responsibility: </span>{responsibility}</p>
                     </div>
                     <div className="portfolio-fourt-row">
                         <a className="github-button"
