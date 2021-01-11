@@ -8,6 +8,8 @@ export default function Aidies({ setPageVisible }) {
     const captions = "Aidies is an auction website built to help people auction off their work for charity. Developed with React, Node.js, PostgresQL, AWS"
     const githubs = "https://github.com/anassri/aid-ies"
     const appLinks = "https://aidies.herokuapp.com/";
+    const responsibility = "this was a solo project, all aspects of this app has been developed by me."
+
 
     return (
         // <VisibilitySensor partialVisibility 
@@ -26,7 +28,7 @@ export default function Aidies({ setPageVisible }) {
                     <img src={aidiesLogo} alt='app logo' className="app-logo" />
                     <div className="hello-line-container content-divider" />
                     <div className="portfolio-third-row">
-                        <p className="caption-text">{captions}</p>
+                        <p className="caption-text">{captions} <span style={{ fontWeight: 'bold' }}> Responsibility: </span>{responsibility}</p>
                     </div>
                     <div className="portfolio-fourt-row">
                         <a className="github-button"
