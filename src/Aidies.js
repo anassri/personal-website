@@ -28,7 +28,7 @@ export default function Aidies({ setPageVisible }) {
                     <img src={aidiesLogo} alt='app logo' className="app-logo" />
                     <div className="hello-line-container content-divider" />
                     <div className="portfolio-third-row">
-                        <p className="caption-text">{captions} <span style={{ fontWeight: 'bold' }}> Responsibility: </span>{responsibility}</p>
+                        <p className="caption-text">{captions}<br></br> <span style={{ fontWeight: 'bold' }}> Responsibility: </span>{responsibility}</p>
                     </div>
                     <div className="portfolio-fourt-row">
                         <a className="github-button"
