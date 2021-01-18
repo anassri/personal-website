@@ -10,7 +10,7 @@ export default function Navigation({ pageVisible }){
             <div className="top-side-container">
                 <div className="logo-container">
                     
-                    <HashLink smooth to="/#home">
+                    <HashLink smooth to="/#about">
                             <img src={logo} alt='website logo' height='66' />
                     </HashLink>
                 </div>
