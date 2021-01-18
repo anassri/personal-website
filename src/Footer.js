@@ -13,7 +13,7 @@ export default function Footer(){
                         <i className="social-media fab fa-linkedin-in"></i>
                         <i className="social-media fas fa-envelope"></i>
                     </div>
-                    <p className="copyright-statement">© 2020 Ammar Nassri</p>
+                    <p className="copyright-statement">© 2021 Ammar Nassri</p>
                 </div>
                 <div className="social-media-container">
                     <a href="https://twitter.com/ammar_nassri" target="_blank" rel="noreferrer"><i className="social-media fab fa-twitter"></i></a>
